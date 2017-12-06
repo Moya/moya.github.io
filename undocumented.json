@@ -1,0 +1,453 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Cancellable.swift",
+      "line": 3,
+      "symbol": "Cancellable.isCancelled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Cancellable.swift",
+      "line": 4,
+      "symbol": "Cancellable.cancel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Endpoint.swift",
+      "line": 20,
+      "symbol": "Endpoint.url",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Endpoint.swift",
+      "line": 21,
+      "symbol": "Endpoint.sampleResponseClosure",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Endpoint.swift",
+      "line": 22,
+      "symbol": "Endpoint.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Endpoint.swift",
+      "line": 23,
+      "symbol": "Endpoint.task",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Endpoint.swift",
+      "line": 24,
+      "symbol": "Endpoint.httpHeaderFields",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Moya+Alamofire.swift",
+      "line": 35,
+      "symbol": "CancellableToken.isCancelled",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Moya+Alamofire.swift",
+      "line": 39,
+      "symbol": "CancellableToken.cancel()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Moya+Alamofire.swift",
+      "line": 47,
+      "symbol": "CancellableToken.init(action:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaError.swift",
+      "line": null,
+      "symbol": "MoyaError",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaError.swift",
+      "line": null,
+      "symbol": "MoyaError",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaError.swift",
+      "line": 3,
+      "symbol": "MoyaError",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider+Defaults.swift",
+      "line": 5,
+      "symbol": "MoyaProvider.defaultEndpointMapping(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider+Defaults.swift",
+      "line": 15,
+      "symbol": "MoyaProvider.defaultRequestMapping(for:closure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider+Defaults.swift",
+      "line": 28,
+      "symbol": "MoyaProvider.defaultAlamofireManager()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider+Internal.swift",
+      "line": 7,
+      "symbol": "Method.supportsMultipart",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider+Internal.swift",
+      "line": 110,
+      "symbol": "MoyaProvider.cancelCompletion(_:target:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 10,
+      "symbol": "ProgressResponse",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 11,
+      "symbol": "ProgressResponse.response",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 12,
+      "symbol": "ProgressResponse.progressObject",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 14,
+      "symbol": "ProgressResponse.init(progress:response:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 19,
+      "symbol": "ProgressResponse.progress",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 23,
+      "symbol": "ProgressResponse.completed",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 28,
+      "symbol": "MoyaProviderType",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 31,
+      "symbol": "MoyaProviderType.request(_:callbackQueue:progress:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 49,
+      "symbol": "MoyaProvider.endpointClosure",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 50,
+      "symbol": "MoyaProvider.requestClosure",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 51,
+      "symbol": "MoyaProvider.stubClosure",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 52,
+      "symbol": "MoyaProvider.manager",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 58,
+      "symbol": "MoyaProvider.trackInflights",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 60,
+      "symbol": "MoyaProvider.inflightRequests",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 152,
+      "symbol": "MoyaProvider.neverStub(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 156,
+      "symbol": "MoyaProvider.immediatelyStub(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 160,
+      "symbol": "MoyaProvider.delayedStub(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MoyaProvider.swift",
+      "line": 165,
+      "symbol": "convertResponseToResult(_:request:data:error:)",
+      "symbol_kind": "source.lang.swift.decl.function.free",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MultiTarget.swift",
+      "line": 8,
+      "symbol": "MultiTarget.init(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MultiTarget.swift",
+      "line": 12,
+      "symbol": "MultiTarget.path",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MultiTarget.swift",
+      "line": 16,
+      "symbol": "MultiTarget.baseURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MultiTarget.swift",
+      "line": 20,
+      "symbol": "MultiTarget.method",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MultiTarget.swift",
+      "line": 24,
+      "symbol": "MultiTarget.sampleData",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MultiTarget.swift",
+      "line": 28,
+      "symbol": "MultiTarget.task",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MultiTarget.swift",
+      "line": 32,
+      "symbol": "MultiTarget.validate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MultiTarget.swift",
+      "line": 36,
+      "symbol": "MultiTarget.headers",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MultipartFormData.swift",
+      "line": 8,
+      "symbol": "MultipartFormData.FormDataProvider.data",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MultipartFormData.swift",
+      "line": 9,
+      "symbol": "MultipartFormData.FormDataProvider.file",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/MultipartFormData.swift",
+      "line": 10,
+      "symbol": "MultipartFormData.FormDataProvider.stream",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Plugins/AccessTokenPlugin.swift",
+      "line": 17,
+      "symbol": "AuthorizationType.none",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Plugins/AccessTokenPlugin.swift",
+      "line": 18,
+      "symbol": "AuthorizationType.basic",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Plugins/AccessTokenPlugin.swift",
+      "line": 19,
+      "symbol": "AuthorizationType.bearer",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Plugins/CredentialsPlugin.swift",
+      "line": 10,
+      "symbol": "CredentialsPlugin.init(credentialsClosure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Plugins/CredentialsPlugin.swift",
+      "line": 16,
+      "symbol": "CredentialsPlugin.willSend(_:target:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Plugins/NetworkActivityPlugin.swift",
+      "line": 6,
+      "symbol": "NetworkActivityChangeType.began",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Plugins/NetworkActivityPlugin.swift",
+      "line": 6,
+      "symbol": "NetworkActivityChangeType.ended",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Plugins/NetworkActivityPlugin.swift",
+      "line": 15,
+      "symbol": "NetworkActivityPlugin.init(networkActivityClosure:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Plugins/NetworkLoggerPlugin.swift",
+      "line": 18,
+      "symbol": "NetworkLoggerPlugin.cURL",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Plugins/NetworkLoggerPlugin.swift",
+      "line": 20,
+      "symbol": "NetworkLoggerPlugin.init(verbose:cURL:output:requestDataFormatter:responseDataFormatter:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Plugins/NetworkLoggerPlugin.swift",
+      "line": 28,
+      "symbol": "NetworkLoggerPlugin.willSend(_:target:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Plugins/NetworkLoggerPlugin.swift",
+      "line": 36,
+      "symbol": "NetworkLoggerPlugin.didReceive(_:target:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Response.swift",
+      "line": 5,
+      "symbol": "Response.statusCode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Response.swift",
+      "line": 6,
+      "symbol": "Response.data",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Response.swift",
+      "line": 7,
+      "symbol": "Response.request",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/Response.swift",
+      "line": 8,
+      "symbol": "Response.response",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/stevendeutsch/Development/OpenSource/Moya/Sources/Moya/TargetType.swift",
+      "line": 29,
+      "symbol": "TargetType.validate",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/stevendeutsch/Development/OpenSource/Moya"
+}
