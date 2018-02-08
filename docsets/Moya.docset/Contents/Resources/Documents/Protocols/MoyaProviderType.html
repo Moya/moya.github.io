@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Cancellable Protocol Reference</title>
+    <title>MoyaProviderType Protocol Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Protocol/Cancellable" class="dashAnchor"></a>
-    <a title="Cancellable Protocol Reference"></a>
+    <a name="//apple_ref/swift/Protocol/MoyaProviderType" class="dashAnchor"></a>
+    <a title="MoyaProviderType Protocol Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">Moya Docs</a> (92% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">Moya Reference</a>
         <img id="carat" src="../img/carat.png" />
-        Cancellable Protocol Reference
+        MoyaProviderType Protocol Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -172,14 +172,15 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>Cancellable</h1>
+            <h1>MoyaProviderType</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Cancellable</span></code></pre>
+                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">MoyaProviderType</span><span class="p">:</span> <span class="kt">AnyObject</span></code></pre>
 
                 </div>
               </div>
-            <p>Protocol to define the opaque type returned from a request.</p>
+            <p>A protocol representing a minimal interface for a MoyaProvider.
+Used by the reactive provider extensions.</p>
 
           </section>
           <section class="section task-group-section">
@@ -188,9 +189,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:4Moya11CancellableP11isCancelledSbv"></a>
-                    <a name="//apple_ref/swift/Property/isCancelled" class="dashAnchor"></a>
-                    <a class="token" href="#/s:4Moya11CancellableP11isCancelledSbv">isCancelled</a>
+                    <a name="/s:4Moya0A12ProviderTypeP7requestAA11Cancellable_p6TargetQz_So13DispatchQueueCSg08callbackH0yAA16ProgressResponseVcSg8progressy6ResultAPOyAA0K0CAA0A5ErrorOGc10completiontF"></a>
+                    <a name="//apple_ref/swift/Method/request(_:callbackQueue:progress:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Moya0A12ProviderTypeP7requestAA11Cancellable_p6TargetQz_So13DispatchQueueCSg08callbackH0yAA16ProgressResponseVcSg8progressy6ResultAPOyAA0K0CAA0A5ErrorOGc10completiontF">request(_:callbackQueue:progress:completion:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -198,41 +199,14 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>A Boolean value stating whether a request is cancelled.</p>
+                        <p>Designated request-making method. Returns a <code><a href="../Protocols/Cancellable.html">Cancellable</a></code> token to cancel the request later.</p>
 
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">isCancelled</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:4Moya11CancellableP6cancelyyF"></a>
-                    <a name="//apple_ref/swift/Method/cancel()" class="dashAnchor"></a>
-                    <a class="token" href="#/s:4Moya11CancellableP6cancelyyF">cancel()</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Cancels the represented request.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">cancel</span><span class="p">()</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">request</span><span class="p">(</span><span class="n">_</span> <span class="nv">target</span><span class="p">:</span> <span class="kt">Target</span><span class="p">,</span> <span class="nv">callbackQueue</span><span class="p">:</span> <span class="kt">DispatchQueue</span><span class="p">?,</span> <span class="nv">progress</span><span class="p">:</span> <span class="kt">Moya</span><span class="o">.</span><span class="kt"><a href="../Typealiases.html#/s:4Moya13ProgressBlocka">ProgressBlock</a></span><span class="p">?,</span> <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kt">Moya</span><span class="o">.</span><span class="kt"><a href="../Typealiases.html#/s:4Moya10Completiona">Completion</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/Cancellable.html">Cancellable</a></span></code></pre>
 
                         </div>
                       </div>

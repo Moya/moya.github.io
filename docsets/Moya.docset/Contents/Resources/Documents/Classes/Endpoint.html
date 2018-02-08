@@ -14,7 +14,7 @@
     <a title="Endpoint Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">Moya Docs</a> (72% documented)</p>
+        <p><a href="../index.html">Moya Docs</a> (92% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -77,6 +77,9 @@
               <li class="nav-group-task">
                 <a href="../Enums/Task.html">Task</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ValidationType.html">ValidationType</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -106,6 +109,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/Cancellable.html">Cancellable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MoyaProviderType.html">MoyaProviderType</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Protocols/PluginType.html">PluginType</a>
@@ -169,11 +175,18 @@
             <h1>Endpoint</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">Endpoint</span><span class="o">&lt;</span><span class="kt">Target</span><span class="o">&gt;</span></code></pre>
+                  <pre class="highlight"><code><span class="n">open</span> <span class="kd">class</span> <span class="kt">Endpoint</span></code></pre>
 
                 </div>
               </div>
             <p>Class for reifying a target of the <code>Target</code> enum unto a concrete <code>Endpoint</code>.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    As of Moya 11.0.0 Endpoint is no longer generic.
+Existing code should work as is after removing the generic.
+See #1529 and #1524 for the discussion.
+
+</div>
 
           </section>
           <section class="section task-group-section">
@@ -192,7 +205,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>A string representation of the URL for the request.</p>
 
                       </div>
                       <div class="declaration">
@@ -219,7 +232,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>A closure responsible for returning an <code><a href="../Enums/EndpointSampleResponse.html">EndpointSampleResponse</a></code>.</p>
 
                       </div>
                       <div class="declaration">
@@ -246,7 +259,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The HTTP method for the request.</p>
 
                       </div>
                       <div class="declaration">
@@ -273,7 +286,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The <code><a href="../Enums/Task.html">Task</a></code> for the request.</p>
 
                       </div>
                       <div class="declaration">
@@ -300,7 +313,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>The HTTP header fields for the request.</p>
 
                       </div>
                       <div class="declaration">
@@ -317,9 +330,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:4Moya8EndpointCACyxGSS3url_AA0B14SampleResponseOyc06sampleE7Closure9Alamofire10HTTPMethodO6methodAA4TaskO4tasks10DictionaryVyS2SGSg16httpHeaderFieldstcfc"></a>
+                    <a name="/s:4Moya8EndpointCACSS3url_AA0B14SampleResponseOyc06sampleE7Closure9Alamofire10HTTPMethodO6methodAA4TaskO4tasks10DictionaryVyS2SGSg16httpHeaderFieldstcfc"></a>
                     <a name="//apple_ref/swift/Method/init(url:sampleResponseClosure:method:task:httpHeaderFields:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:4Moya8EndpointCACyxGSS3url_AA0B14SampleResponseOyc06sampleE7Closure9Alamofire10HTTPMethodO6methodAA4TaskO4tasks10DictionaryVyS2SGSg16httpHeaderFieldstcfc">init(url:sampleResponseClosure:method:task:httpHeaderFields:)</a>
+                    <a class="token" href="#/s:4Moya8EndpointCACSS3url_AA0B14SampleResponseOyc06sampleE7Closure9Alamofire10HTTPMethodO6methodAA4TaskO4tasks10DictionaryVyS2SGSg16httpHeaderFieldstcfc">init(url:sampleResponseClosure:method:task:httpHeaderFields:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -327,7 +340,7 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Main initializer for <code>Endpoint</code>.</p>
+                        <p>Undocumented</p>
 
                       </div>
                       <div class="declaration">
@@ -348,9 +361,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:4Moya8EndpointC6addingACyxGs10DictionaryVyS2SG19newHTTPHeaderFields_tF"></a>
+                    <a name="/s:4Moya8EndpointC6addingACs10DictionaryVyS2SG19newHTTPHeaderFields_tF"></a>
                     <a name="//apple_ref/swift/Method/adding(newHTTPHeaderFields:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:4Moya8EndpointC6addingACyxGs10DictionaryVyS2SG19newHTTPHeaderFields_tF">adding(newHTTPHeaderFields:)</a>
+                    <a class="token" href="#/s:4Moya8EndpointC6addingACs10DictionaryVyS2SG19newHTTPHeaderFields_tF">adding(newHTTPHeaderFields:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -365,7 +378,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">adding</span><span class="p">(</span><span class="nv">newHTTPHeaderFields</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">String</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">Endpoint</span><span class="o">&lt;</span><span class="kt">Target</span><span class="o">&gt;</span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">adding</span><span class="p">(</span><span class="nv">newHTTPHeaderFields</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">String</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="kt">Endpoint</span></code></pre>
 
                         </div>
                       </div>
@@ -375,9 +388,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:4Moya8EndpointC9replacingACyxGAA4TaskO4task_tF"></a>
+                    <a name="/s:4Moya8EndpointC9replacingAcA4TaskO4task_tF"></a>
                     <a name="//apple_ref/swift/Method/replacing(task:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:4Moya8EndpointC9replacingACyxGAA4TaskO4task_tF">replacing(task:)</a>
+                    <a class="token" href="#/s:4Moya8EndpointC9replacingAcA4TaskO4task_tF">replacing(task:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -392,7 +405,7 @@
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">replacing</span><span class="p">(</span><span class="nv">task</span><span class="p">:</span> <span class="kt"><a href="../Enums/Task.html">Task</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Endpoint</span><span class="o">&lt;</span><span class="kt">Target</span><span class="o">&gt;</span></code></pre>
+                          <pre class="highlight"><code><span class="n">open</span> <span class="kd">func</span> <span class="nf">replacing</span><span class="p">(</span><span class="nv">task</span><span class="p">:</span> <span class="kt"><a href="../Enums/Task.html">Task</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Endpoint</span></code></pre>
 
                         </div>
                       </div>
@@ -463,9 +476,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:4Moya8EndpointC2eeoiSbACyqd__G_AEtlFZ"></a>
+                    <a name="/s:4Moya8EndpointC2eeoiSbAC_ACtFZ"></a>
                     <a name="//apple_ref/swift/Method/==(_:_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:4Moya8EndpointC2eeoiSbACyqd__G_AEtlFZ">==(_:_:)</a>
+                    <a class="token" href="#/s:4Moya8EndpointC2eeoiSbAC_ACtFZ">==(_:_:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -476,13 +489,12 @@
                         <p>Note: If both Endpoints fail to produce a URLRequest the comparison will
 fall back to comparing each Endpoint&rsquo;s hashValue.</p>
 
-                        <a href="../Classes/Endpoint/==(_:_:).html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="o">==</span> <span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">(</span><span class="nv">lhs</span><span class="p">:</span> <span class="kt"><a href="../Classes/Endpoint.html">Endpoint</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">,</span> <span class="nv">rhs</span><span class="p">:</span> <span class="kt"><a href="../Classes/Endpoint.html">Endpoint</a></span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">static</span> <span class="kd">func</span> <span class="o">==</span> <span class="p">(</span><span class="nv">lhs</span><span class="p">:</span> <span class="kt">Endpoint</span><span class="p">,</span> <span class="nv">rhs</span><span class="p">:</span> <span class="kt">Endpoint</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
 
                         </div>
                       </div>
@@ -494,7 +506,7 @@ fall back to comparing each Endpoint&rsquo;s hashValue.</p>
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2017 <a class="link" href="https://github.com/Moya/Moya" target="_blank" rel="external">Ash Furrow</a>. All rights reserved. (Last updated: 2017-12-09)</p>
+          <p>&copy; 2018 <a class="link" href="https://github.com/Moya/Moya" target="_blank" rel="external">Ash Furrow</a>. All rights reserved. (Last updated: 2018-02-07)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>

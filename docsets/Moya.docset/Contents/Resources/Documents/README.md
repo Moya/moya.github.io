@@ -12,6 +12,6 @@ The documentation is auto-generated using [Jazzy](https://github.com/realm/jazzy
 ```
 After you have jazzy installed, cd into the Moya directory and run:
 ```
-jazzy -o ../moya.github.io/docs
+jazzy -o ../moya.github.io
 ```
 The output path reflects having both the Moya and moya.github.io projects in the same directory.
