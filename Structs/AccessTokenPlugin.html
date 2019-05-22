@@ -14,7 +14,7 @@
     <a title="AccessTokenPlugin Structure Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">Moya Docs</a> (92% documented)</p>
+        <p><a href="../index.html">Moya Docs</a> (87% documented)</p>
       </div>
     </header>
     <div class="content-wrapper">
@@ -97,7 +97,7 @@
             <a href="../Functions.html">Functions</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
-                <a href="../Functions.html#/s:4Moya23convertResponseToResult0E0ACOyAA0C0CAA0A5ErrorOGSo15HTTPURLResponseCSg_10Foundation10URLRequestVSg7requestAM4DataVSg4datas0F0_pSg5errortF">convertResponseToResult(_:request:data:error:)</a>
+                <a href="../Functions.html#/s:4Moya23convertResponseToResult_7request4data5errors0E0OyAA0C0CAA0A5ErrorOGSo17NSHTTPURLResponseCSg_10Foundation10URLRequestVSgAP4DataVSgs0I0_pSgtF">convertResponseToResult(_:request:data:error:)</a>
               </li>
             </ul>
           </li>
@@ -148,7 +148,22 @@
                 <a href="../Typealiases.html#/s:4Moya10Completiona">Completion</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:4Moya19DownloadDestinationa">DownloadDestination</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Typealiases.html#/s:4Moya5Imagea">Image</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/ImageType">ImageType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:4Moya9ImageTypea">ImageType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:4Moya12JSONEncodinga">JSONEncoding</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:4Moya7Managera">Manager</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Typealiases.html#/s:4Moya6Methoda">Method</a>
@@ -163,7 +178,13 @@
                 <a href="../Typealiases.html#/s:4Moya13ProgressBlocka">ProgressBlock</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:4Moya20PropertyListEncodinga">PropertyListEncoding</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Typealiases.html#/s:4Moya24RequestMultipartFormDataa">RequestMultipartFormData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:4Moya11URLEncodinga">URLEncoding</a>
               </li>
             </ul>
           </li>
@@ -175,13 +196,14 @@
             <h1>AccessTokenPlugin</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AccessTokenPlugin</span><span class="p">:</span> <span class="kt"><a href="../Protocols/PluginType.html">PluginType</a></span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">AccessTokenPlugin</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/PluginType.html">PluginType</a></span></code></pre>
 
                 </div>
               </div>
             <p>A plugin for adding basic or bearer-type authorization headers to requests. Example:</p>
-<pre class="highlight plaintext"><code>Authorization: Bearer &lt;token&gt;
-Authorization: Basic &lt;token&gt;
+<pre class="highlight swift"><code><span class="kt">Authorization</span><span class="p">:</span> <span class="kt">Basic</span> <span class="o">&lt;</span><span class="n">token</span><span class="o">&gt;</span>
+<span class="kt">Authorization</span><span class="p">:</span> <span class="kt">Bearer</span> <span class="o">&lt;</span><span class="n">token</span><span class="o">&gt;</span>
+<span class="kt">Authorization</span><span class="p">:</span> <span class="o">&lt;</span><span class="kt">Сustom</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">token</span><span class="o">&gt;</span>
 </code></pre>
 
           </section>
@@ -191,9 +213,9 @@ Authorization: Basic &lt;token&gt;
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:4Moya17AccessTokenPluginV12tokenClosureSSycv"></a>
+                    <a name="/s:4Moya17AccessTokenPluginV12tokenClosureSSycvp"></a>
                     <a name="//apple_ref/swift/Property/tokenClosure" class="dashAnchor"></a>
-                    <a class="token" href="#/s:4Moya17AccessTokenPluginV12tokenClosureSSycv">tokenClosure</a>
+                    <a class="token" href="#/s:4Moya17AccessTokenPluginV12tokenClosureSSycvp">tokenClosure</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -208,7 +230,7 @@ Authorization: Basic &lt;token&gt;
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">tokenClosure</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">let</span> <span class="nv">tokenClosure</span><span class="p">:</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span></code></pre>
 
                         </div>
                       </div>
@@ -218,9 +240,9 @@ Authorization: Basic &lt;token&gt;
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:4Moya17AccessTokenPluginVACSSyXK12tokenClosure_tcfc"></a>
+                    <a name="/s:4Moya17AccessTokenPluginV12tokenClosureACSSyc_tcfc"></a>
                     <a name="//apple_ref/swift/Method/init(tokenClosure:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:4Moya17AccessTokenPluginVACSSyXK12tokenClosure_tcfc">init(tokenClosure:)</a>
+                    <a class="token" href="#/s:4Moya17AccessTokenPluginV12tokenClosureACSSyc_tcfc">init(tokenClosure:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -235,7 +257,7 @@ Authorization: Basic &lt;token&gt;
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">tokenClosure</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="kd">@autoclosure</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">tokenClosure</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">String</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -264,9 +286,9 @@ Authorization: Basic &lt;token&gt;
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:4Moya17AccessTokenPluginV7prepare10Foundation10URLRequestVAG_AA10TargetType_p6targettF"></a>
+                    <a name="/s:4Moya17AccessTokenPluginV7prepare_6target10Foundation10URLRequestVAH_AA10TargetType_ptF"></a>
                     <a name="//apple_ref/swift/Method/prepare(_:target:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:4Moya17AccessTokenPluginV7prepare10Foundation10URLRequestVAG_AA10TargetType_p6targettF">prepare(_:target:)</a>
+                    <a class="token" href="#/s:4Moya17AccessTokenPluginV7prepare_6target10Foundation10URLRequestVAH_AA10TargetType_ptF">prepare(_:target:)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -281,7 +303,7 @@ Authorization: Basic &lt;token&gt;
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">prepare</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt">URLRequest</span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span> <span class="kt"><a href="../Protocols/TargetType.html">TargetType</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">URLRequest</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">prepare</span><span class="p">(</span><span class="n">_</span> <span class="nv">request</span><span class="p">:</span> <span class="kt">URLRequest</span><span class="p">,</span> <span class="nv">target</span><span class="p">:</span> <span class="kt"><a href="../Protocols/TargetType.html">TargetType</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">URLRequest</span></code></pre>
 
                         </div>
                       </div>
@@ -328,8 +350,8 @@ Authorization: Basic &lt;token&gt;
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2018 <a class="link" href="https://github.com/Moya/Moya" target="_blank" rel="external">Ash Furrow</a>. All rights reserved. (Last updated: 2018-02-07)</p>
-          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.0</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+          <p>&copy; 2019 <a class="link" href="https://github.com/Moya/Moya" target="_blank" rel="external">Ash Furrow</a>. All rights reserved. (Last updated: 2019-05-22)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
         </section>
       </article>
     </div>
