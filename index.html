@@ -27,6 +27,47 @@
       <nav class="sidebar">
         <ul class="nav-groups">
           <li class="nav-group-name">
+            <a href="Guides.html">Guides</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="authentication.html">Authentication</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="communityprojects.html">CommunityProjects</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="endpoints.html">Endpoints</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="plugins.html">Plugins</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="providers.html">Providers</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="readme.html">README</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="reactiveswift.html">ReactiveSwift</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="releasing.html">Releasing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="rxswift.html">RxSwift</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="targets.html">Targets</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="testing.html">Testing</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="threading.html">Threading</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
             <a href="Classes.html">Classes</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
@@ -367,7 +408,7 @@ generated framework they&rsquo;d like, <code>Moya</code>, <code>RxMoya</code>, o
 <p>If this is your first time using Carthage in the project, you&rsquo;ll need to go through some additional steps as explained <a href="https://github.com/Carthage/Carthage#adding-frameworks-to-an-application">over at Carthage</a>.</p>
 
 <blockquote>
-<p>NOTE: At this time, Carthage does not provide a way to build only specific repository submodules. All submodules and their dependencies will be built with the above command. However, you don&rsquo;t need to copy frameworks you aren&rsquo;t using into your project. For instance, if you aren&rsquo;t using <code>ReactiveSwift</code>, feel free to delete that framework along with <code>ReactiveMoya</code> from the Carthage Build directory after <code>carthage update</code> completes. Or if you are using <code>ReactiveSwift</code> but not <code>RxSwift</code>, then <code>RxMoya</code>, <code>RxTest</code>, <code>RxCocoa</code>, etc. can safely be deleted.</p>
+<p>NOTE: At this time, Carthage does not provide a way to build only specific repository submodules. All submodules and their dependencies will be built with the above command. However, you don&rsquo;t need to copy frameworks you aren&rsquo;t using into your project. For instance, if you aren&rsquo;t using <code><a href="reactiveswift.html">ReactiveSwift</a></code>, feel free to delete that framework along with <code>ReactiveMoya</code> from the Carthage Build directory after <code>carthage update</code> completes. Or if you are using <code><a href="reactiveswift.html">ReactiveSwift</a></code> but not <code><a href="rxswift.html">RxSwift</a></code>, then <code>RxMoya</code>, <code>RxTest</code>, <code>RxCocoa</code>, etc. can safely be deleted.</p>
 </blockquote>
 <h3 id='manually' class='heading'>Manually</h3>
 
@@ -460,7 +501,7 @@ parameter encoding.</p>
 <a href="https://github.com/ReactiveX/RxSwift">RxSwift</a>.</p>
 <h3 id='reactiveswift' class='heading'>ReactiveSwift</h3>
 
-<p><a href="https://github.com/Moya/Moya/blob/master/docs/ReactiveSwift.md"><code>ReactiveSwift</code> extension</a> provides both <code>reactive.request(:callbackQueue:)</code> and 
+<p><a href="https://github.com/Moya/Moya/blob/master/docs/ReactiveSwift.md"><code><a href="reactiveswift.html">ReactiveSwift</a></code> extension</a> provides both <code>reactive.request(:callbackQueue:)</code> and 
 <code>reactive.requestWithProgress(:callbackQueue:)</code> methods that immediately return
 <code>SignalProducer</code>s that you can start, bind, map, or whatever you want to do.
 To handle errors, for instance, we could do the following:</p>
@@ -478,7 +519,7 @@ To handle errors, for instance, we could do the following:</p>
 </code></pre>
 <h3 id='rxswift' class='heading'>RxSwift</h3>
 
-<p><a href="https://github.com/Moya/Moya/blob/master/docs/RxSwift.md"><code>RxSwift</code> extension</a> also provide both <code>rx.request(:callbackQueue:)</code> and
+<p><a href="https://github.com/Moya/Moya/blob/master/docs/RxSwift.md"><code><a href="rxswift.html">RxSwift</a></code> extension</a> also provide both <code>rx.request(:callbackQueue:)</code> and
 <code>rx.requestWithProgress(:callbackQueue:)</code> methods, but return type is
 different for both. In case of a normal <code>rx.request(:callbackQueue)</code>, the
 return type is <code>Single&lt;Response&gt;</code> which emits either single element or an
