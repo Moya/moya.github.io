@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>EndpointSampleResponse Enumeration Reference</title>
+    <title>Request Extension Reference</title>
     <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
     <meta charset='utf-8'>
@@ -10,8 +10,8 @@
     
   </head>
   <body>
-    <a name="//apple_ref/swift/Enum/EndpointSampleResponse" class="dashAnchor"></a>
-    <a title="EndpointSampleResponse Enumeration Reference"></a>
+    <a name="//apple_ref/swift/Extension/Request" class="dashAnchor"></a>
+    <a title="Request Extension Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="../index.html">Moya Docs</a> (82% documented)</p>
@@ -21,7 +21,7 @@
       <p id="breadcrumbs">
         <a href="../index.html">Moya Reference</a>
         <img id="carat" src="../img/carat.png" />
-        EndpointSampleResponse Enumeration Reference
+        Request Extension Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -196,14 +196,14 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>EndpointSampleResponse</h1>
+            <h1>Request</h1>
               <div class="declaration">
                 <div class="language">
-                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">enum</span> <span class="kt">EndpointSampleResponse</span></code></pre>
+                  <pre class="highlight swift"><code><span class="kd">internal</span> <span class="kd">typealias</span> <span class="kt">Request</span> <span class="o">=</span> <span class="kt">Alamofire</span><span class="o">.</span><span class="kt">Request</span></code></pre>
 
                 </div>
               </div>
-            <p>Used for stubbing responses.</p>
+            <p>Undocumented</p>
 
           </section>
           <section class="section task-group-section">
@@ -212,9 +212,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:4Moya22EndpointSampleResponseO07networkD0yACSi_10Foundation4DataVtcACmF"></a>
-                    <a name="//apple_ref/swift/Element/networkResponse(_:_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:4Moya22EndpointSampleResponseO07networkD0yACSi_10Foundation4DataVtcACmF">networkResponse(_:_:)</a>
+                    <a name="/s:4Moya11RequestTypeP14sessionHeadersSDyS2SGvp"></a>
+                    <a name="//apple_ref/swift/Property/sessionHeaders" class="dashAnchor"></a>
+                    <a class="token" href="#/s:4Moya11RequestTypeP14sessionHeadersSDyS2SGvp">sessionHeaders</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -222,68 +222,13 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>The network returned a response, including status code and data.</p>
-
+                        
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">networkResponse</span><span class="p">(</span><span class="kt">Int</span><span class="p">,</span> <span class="kt">Data</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:4Moya22EndpointSampleResponseO8responseyACSo17NSHTTPURLResponseC_10Foundation4DataVtcACmF"></a>
-                    <a name="//apple_ref/swift/Element/response(_:_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:4Moya22EndpointSampleResponseO8responseyACSo17NSHTTPURLResponseC_10Foundation4DataVtcACmF">response(_:_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The network returned response which can be fully customized.</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">response</span><span class="p">(</span><span class="kt">HTTPURLResponse</span><span class="p">,</span> <span class="kt">Data</span><span class="p">)</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:4Moya22EndpointSampleResponseO12networkErroryACSo7NSErrorCcACmF"></a>
-                    <a name="//apple_ref/swift/Element/networkError(_:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:4Moya22EndpointSampleResponseO12networkErroryACSo7NSErrorCcACmF">networkError(_:)</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>The network failed to send the request, or failed to retrieve a response (eg a timeout).</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="k">case</span> <span class="nf">networkError</span><span class="p">(</span><span class="kt">NSError</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">sessionHeaders</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">]</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
 
                         </div>
                       </div>
